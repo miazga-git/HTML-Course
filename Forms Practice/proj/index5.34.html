@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Forms Practice Problem</title>
+	<style>
+		.form{
+			border-color: #ccc;
+			border-width: 1px ;
+			padding: 16px;
+		}
+		.submit_button{
+			background-color: #0056ff;
+			padding-top: 12px;
+			padding-bottom: 12px ;
+			padding-left: 24px;
+			padding-right: 24px;
+			font-size: 18px;
+			color: white;
+			border: none ; 
+		}
+		.input_box{
+			font-size: 18px;
+			padding-bottom: 12px ;
+			margin-bottom: 36px;
+			border-top:0 ; 
+			border-left:0 ; 
+			border-right:0 ; 
+			border-bottom: 1px solid #ccc;
+			width: 100%;
+		}
+		.social_icon{
+			width: 50px;
+			height: 50px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			padding-left: 32px;
+			padding-right: 32px;
+		}
+		#input_wrapper{
+			padding-top: 80px;
+			padding-bottom: 40px;
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+		.input_container{
+			padding-top: 80px;
+			padding-bottom: 40px;
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+
+		form{
+			background-color: white;
+			width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			border: 1px solid #ccc;
+		}
+		.form_heading{
+			font-size: 32px;
+			padding-top: 56px;
+			padding-bottom: 32px;
+			
+		}
+		#social_wrapper{
+			background-color: #f2f6ff;
+			padding: 24px;
+		}
+	</style>
+</head>
+	<body style="background-color: #f2f6ff;">
+		
+		<form >
+
+			<h1 class="form_heading">Register</h1>
+
+			<div id="social_wrapper">
+				<img class="social_icon" src="C:\Users\x\Documents\GitHub\HTML-Course\Forms Practice\proj\facebook-logo.png" alt="facebook-logo" />
+				<img class="social_icon" src="C:\Users\x\Documents\GitHub\HTML-Course\Forms Practice\proj\github-logo1.png" alt="github-logo" />
+				<img class="social_icon" src="C:\Users\x\Documents\GitHub\HTML-Course\Forms Practice\proj\google-logo.png" alt="google-logo" />
+				<img class="social_icon" src="C:\Users\x\Documents\GitHub\HTML-Course\Forms Practice\proj\linkedin-logo.png" alt="linkedin-logo" />
+			</div>
+
+			<div id="input_wrapper">
+				<div>
+					<input class="input_box" type="text" name="username" placeholder="Username">
+					<br>
+				</div>
+				<div>
+					<input class="input_box" type="email" name="email" placeholder="Email" >
+					<br>
+				</div>
+				<div>
+					<input class="input_box" type="password" name="password" placeholder="Password" >
+					<br>
+				</div>
+				<div>
+					<input class="input_box" type="password" name="confirm-password" placeholder="Confirm Password">
+					<br>
+				</div>
+				<div>
+					<input class="submit_button" type="submit" value="Register">
+				</div>
+			</div>
+			
+		</form>
+	</body>
+</html>
