@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Design layouts using Tables</title>
+    <style>
+        .image-item{
+            width: 450px;
+            height: 300px;
+        }
+        body{
+            margin:0;
+            padding:0;
+            background-color: #f2f6ff;
+        }
+        .form{
+			border-color: #ccc;
+			border-width: 1px ;
+			padding: 16px;
+		}
+		.submit_button{
+			background-color:  rgba(2, 2, 83, 0.911);
+			padding-top: 12px;
+			padding-bottom: 12px ;
+			padding-left: 24px;
+			padding-right: 24px;
+			font-size: 18px;
+			color: white;
+			border: none ; 
+		}
+		.input_box{
+			font-size: 18px;
+			padding-bottom: 12px ;
+			margin-bottom: 36px;
+			border-top:0 ; 
+			border-left:0 ; 
+			border-right:0 ; 
+			border-bottom: 1px solid #ccc;
+			width: 100%;
+		}
+        #input_wrapper{
+			padding-top: 80px;
+			padding-bottom: 40px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		form{
+			background-color: white;
+			width: 480px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			border: 1px solid #ccc;
+		}
+    </style>
+</head>
+	<body>
+        <div style="background-color: rgba(2, 2, 83, 0.911);padding:16px; text-align: center;">
+            <span ><a style="color: white; font-size: 20px ;font-weight: 100; margin-right: 25px; " href="/proj8/index.html">TRIPS</a></span>
+            <span ><a style="color: white; font-size: 20px ;font-weight: 100; margin-right: 25px; " href="/proj8/about.html">ABOUT</a></span>
+            <span ><a style="color: white; font-size: 20px ;font-weight: 100; " href="/proj8/contact.html">CONTACT</a></span>
+        </div>
+        <div style="margin-top: 40px" >
+            <h2 style="text-align: center;">Wanna come on my next trip? Contact Me.</h2>
+        </div>
+        
+   
+        
+        <form>
+            <div id="input_wrapper">
+                <div>
+                    <input class="input_box" type="text" name="fullname" placeholder="Full Name">
+                     <br>
+                 </div>
+                <div>
+                     <input class="input_box" type="email" name="email" placeholder="Email" >
+                     <br>
+                </div>
+                <div>
+                    <input class="input_box" type="text" name="number" placeholder="Contact Number" >
+                    <br>
+                 </div>
+                <div>
+                    <input class="submit_button" type="submit" value="Submit">
+                </div>
+             </div> 
+        </form>
+        <div style="background-color: black;padding:55px; text-align: center; margin-top: 250px">
+            <span ><a style="color: white; font-size: 20px ;font-weight: 100; margin-right: 25px; text-decoration:none; " href="/proj8/index.html">TRIPS</a></span>
+            <span ><a style="color: white; font-size: 20px ;font-weight: 100; margin-right: 25px; text-decoration:none; " href="/proj8/about.html">ABOUT</a></span>
+            <span ><a style="color: white; font-size: 20px ;font-weight: 100; text-decoration:none; " href="/proj8/contact.html">CONTACT</a></span>
+        </div>
+	</body>
+</html>
